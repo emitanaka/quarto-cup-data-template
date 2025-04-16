@@ -1,0 +1,31 @@
+\begin{Frontmatter}
+
+\title[Article Title]{$title$}
+
+% There is no need to include ORCID IDs in your .pdf; this information is captured by the submission portal when a manuscript is submitted.
+$for(by-author)$
+\author[$for(it.affiliations)$$it.number$$sep$,$endfor$]{$it.name.literal$}
+$endfor$
+
+$for(authors/first)$
+\authormark{$it.name.literal$ \textit{et al}.}
+$endfor$
+
+$for(by-affiliation/allbutlast)$
+\address[$it.number$]{$if(it.department)$\orgdiv{$it.department$}, $endif$$if(it.name)$\orgname{$it.name$}, $endif$\orgaddress{$if(it.city)$\city{$it.city$}, $endif$$if(it.postal-code)$\postcode{$it.postal-code$}, $endif$$if(it.region)$\state{$it.region$},  $endif$\country{$it.country$}}}
+$endfor$
+$for(by-affiliation/last)$
+\address[$it.number$]{$if(it.department)$\orgdiv{$it.department$}, $endif$$if(it.name)$\orgname{$it.name$}, $endif$\orgaddress{$if(it.city)$\city{$it.city$}, $endif$$if(it.postal-code)$\postcode{$it.postal-code$}, $endif$$if(it.region)$\state{$it.region$},  $endif$\country{$it.country$}}$if(email)$ \email{$email$}$endif$}
+$endfor$
+
+$if(keywords)$
+\keywords{$for(keywords)$$keywords$$sep$, $endfor$}
+$endif$
+
+\keywords[MSC Codes]{\codes[Primary]{$code1$}; \codes[Secondary]{$for(code2)$$code2$$sep$, $endfor$}}
+
+$if(abstract)$
+\abstract{$abstract$}
+$endif$
+
+\end{Frontmatter}

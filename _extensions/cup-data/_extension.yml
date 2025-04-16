@@ -1,0 +1,28 @@
+title: Cup-data
+author: Emi Tanaka
+version: 1.0.0
+quarto-required: ">=1.6.0"
+contributes:
+  formats:
+    common:
+      toc: true
+      filters:
+        - cup-data.lua
+    pdf:
+      keep-tex: true
+      pdf-engine: pdflatex
+      journal: rsm
+      journal-name: Research Synthesis Methods
+      type: ARTICLE TYPE
+      #template: template.tex
+      year: 2024
+      code1: CODE1
+      code2: [CODE2, CODE3]
+      template-partials:
+      - partials/doc-class.tex
+      - partials/title.tex
+      - partials/toc.tex
+      - partials/before-body.tex
+      format-resources:
+        - CUP-JNL-DTM.cls
+        - CUP_Logo.pdf

@@ -1,0 +1,32 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{1}
+
+\bibitem{knuth:1984}
+Donald~E. Knuth, \emph{Literate programming}, The Computer Journal \textbf{27}
+  (1984), no.~2, 97--111.
+
+\bibitem{texbook}
+\bysame, \emph{The {\TeX} book}, Addison-Wesley Professional, 1986.
+
+\bibitem{latex2e}
+Leslie Lamport, \emph{{\LaTeX}: a document preparation system}, 2 ed., Addison
+  Wesley, Massachusetts, 1994.
+
+\bibitem{lesk:1977}
+Michael Lesk and Brian Kernighan, \emph{Computer typesetting of technical
+  journals on {UNIX}}, Proceedings of American Federation of Information
+  Processing Societies: 1977 National Computer Conference (Dallas, Texas),
+  1977, pp.~879--888.
+
+\bibitem{latex:companion}
+Frank Mittelbach, Michel Gossens, Johannes Braams, David Carlisle, and Chris
+  Rowley, \emph{The {\LaTeX} companion}, 2 ed., Addison-Wesley Professional,
+  2004.
+
+\end{thebibliography}

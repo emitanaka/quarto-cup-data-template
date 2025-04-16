@@ -1,0 +1,22 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\etoc@startlocaltoc {1}
+\contentsline {section}{\numberline {1}Insert A head here}{1}{section.0.1}%
+\contentsline {subsection}{\numberline {1.1}Insert B head here}{2}{subsection.0.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Insert C head here}{2}{subsubsection.0.1.1.1}%
+\contentsline {paragraph}{Insert D head here}{2}{section*.4}%
+\contentsline {section}{\numberline {2}Insert A head here}{3}{section.0.2}%
+\contentsline {subsection}{\numberline {2.1}Insert B head here}{3}{subsection.0.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Insert C head here}{3}{subsubsection.0.2.1.1}%
+\contentsline {section}{\numberline {3}Equations}{3}{section.0.3}%
+\contentsline {section}{\numberline {4}Figures}{3}{section.0.4}%
+\contentsline {section}{\numberline {5}Tables}{3}{section.0.5}%
+\contentsline {section}{\numberline {6}Cross referencing}{4}{section.0.6}%
+\contentsline {section}{\numberline {7}Lists}{5}{section.0.7}%
+\contentsline {section}{\numberline {A}Appendix. Title for Appendix Section}{5}{appendix.A}%
+\contentsline {section}{\numberline {B}Conclusion}{5}{appendix.B}%
+\contentsline {paragraph}{Acknowledgments}{5}{section*.5}%
+\contentsline {paragraph}{Funding Statement}{5}{section*.6}%
+\contentsline {paragraph}{Competing Interests}{5}{section*.7}%
+\contentsline {paragraph}{Data Availability Statement}{5}{section*.8}%
+\contentsline {paragraph}{Ethical Standards}{5}{section*.9}%
+\contentsline {paragraph}{Author Contributions}{5}{section*.10}%

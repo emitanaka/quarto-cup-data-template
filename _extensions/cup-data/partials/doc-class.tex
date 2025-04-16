@@ -1,0 +1,63 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% To select a journal, use its code for the
+% journal= option in the \documentclass command.
+% The journal codes for this template are:
+
+% Wearable Technologies: wet
+% Data and Policy: dap
+% Data-centric Engineering: dce
+% Environmental Data Science: eds
+% Programmable Materials: prm
+% Journal of Nonlinear Waves: jnw
+% Flow: flw
+% Judgment and Decision Making: jdm
+% Psychometrika: psy
+% Forum of Mathematics, Pi: fmp
+% Forum of Mathematics, Sigma: fms
+% Glasgow Mathematical Journal: gmj
+% Research Synthesis Methods: rsm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[journal=$journal$]{CUP-JNL-DTM}
+% If using any of the following journal options:
+%   wet, dap, dce, eds, prm, jnw, flw, jdm, psy, rsm
+% then uncomment the following line:
+\addbibresource{$bibliography$}
+
+
+%%%% Packages
+\usepackage{graphicx}
+\usepackage{multicol,multirow}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{mathrsfs}
+\usepackage{amsthm}
+\usepackage{rotating}
+\usepackage{appendix}
+\usepackage{ifpdf}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage[colorlinks,allcolors=blue]{hyperref}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{example}[theorem]{Example}
+\numberwithin{equation}{section}
+
+
+\jname{$journal-name$}
+\articletype{$type$}
+$if(article-id)$
+\artid{$article-id$}
+$endif$
+\jyear{$year$}
+$if(jvol)$
+\jvol{$jvol$}
+$endif$
+$if(jissue)$
+\jissue{$jissue$}
+\raggedbottom
+$endif$

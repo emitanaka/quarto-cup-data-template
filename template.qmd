@@ -1,0 +1,38 @@
+---
+title: Cup-data Template
+format:
+  cup-data-pdf:
+    keep-tex: true  
+email: sm@example.org
+author:
+  - name: Sarah Malloc
+    affiliations:
+      - name: An Organization
+        department: The Department
+        city: Boston
+        country: USA
+        state: Somewhere
+        postal-code: 02210-1022
+      - name: An Organization
+        department: The Department
+        city: Canberra
+        country: Australia
+        postal-code: 2000
+  - name: Eliza Dealloc
+    affiliations:
+      - name: An Organization
+        department: The Department
+        city: Canberra
+        country: Australia
+        postal-code: 2000
+abstract: |
+  This document is a template demonstrating the Cup-data format.
+keywords: [template, demo]
+bibliography: bibliography.bib  
+---
+
+## Introduction {#sec-intro}
+
+*TODO* Create a template that demonstrates the appearance, formatting, layout, and functionality of your format. Learn more about journal formats at <https://quarto.org/docs/journals/>.
+
+
